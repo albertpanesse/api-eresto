@@ -1,0 +1,13 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  cfgname: MyString
+  cfgdesc: MyString
+  cfgtype: MyString
+  cfgvalue: MyString
+
+two:
+  cfgname: MyString
+  cfgdesc: MyString
+  cfgtype: MyString
+  cfgvalue: MyString
