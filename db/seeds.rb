@@ -5,3 +5,9 @@
 #
 #   movies = Movie.create([{ name: 'Star Wars' }, { name: 'Lord of the Rings' }])
 #   Character.create(name: 'Luke', movie: movies.first)
+tables = []
+for i in 1..80
+	tables[i - 1] = { tablenum: i, status: 'F' }
+end
+
+tableResult = Table.create(tables)
