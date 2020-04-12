@@ -3,6 +3,7 @@ class CreateTables < ActiveRecord::Migration[6.0]
     create_table :tables do |t|
       t.integer :tablenum
       t.string :status
+      t.string :customername
 
       t.timestamps
     end

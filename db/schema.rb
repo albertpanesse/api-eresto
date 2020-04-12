@@ -35,6 +35,7 @@ ActiveRecord::Schema.define(version: 2020_04_10_093043) do
   create_table "tables", force: :cascade do |t|
     t.integer "tablenum"
     t.string "status"
+    t.string "customername"
     t.datetime "created_at", precision: 6, null: false
     t.datetime "updated_at", precision: 6, null: false
   end
