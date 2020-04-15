@@ -9,4 +9,12 @@ Rails.application.routes.draw do
   delete 'menu-category/delete', to: 'menu_category#delete'
   get 'menu-category/one/:id', to: 'menu_category#one'
   get 'menu-category/many', to: 'menu_category#many'
+
+  post 'menu/create', to: 'menu#create'
+  put 'menu/update', to: 'menu#update'
+  delete 'menu/delete', to: 'menu#delete'
+  get 'menu/one/:id', to: 'menu#one'
+  get 'menu/many', to: 'menu#many'
+
+  post 'file/upload', to: 'file#upload'
 end
